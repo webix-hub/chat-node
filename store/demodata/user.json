@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Brown",
+    "email": "alex@brown.com",
+    "avatar": "https://docs.webix.com/usermanager-backend/users/102/avatar/898151818.jpg",
+    "status": 0
+  },
+  {
+    "id": 2,
+    "name": "Sinister Alpha",
+    "email": "sinister12@gmail.com",
+    "avatar": "https://docs.webix.com/usermanager-backend/users/103/avatar/491902305.jpg",
+    "status": 0
+  },
+  {
+    "id": 3,
+    "name": "Alan Raichu",
+    "email": "raichu026@pokedex.com",
+    "avatar": "https://docs.webix.com/usermanager-backend/users/101/avatar/092352563.jpg",
+    "status": 0
+  },
+  {
+    "id": 4,
+    "name": "Diana Wronsky",
+    "email": "diana.wronski@yahoo.com",
+    "avatar": "https://docs.webix.com/usermanager-backend/users/105/avatar/096793420.jpg",
+    "status": 1
+  },
+  {
+    "id": 5,
+    "name": "Henry Farfetch'd",
+    "email": "kingdomfaraway@gmail.com",
+    "avatar": "https://docs.webix.com/usermanager-backend/users/102/avatar/898151818.jpg",
+    "status": 3
+  },
+  {
+    "id": 17,
+    "name": "Jean Catwright",
+    "email": "",
+    "avatar": "https://docs.webix.com/usermanager-backend/users/98/avatar/909471384.jpg",
+    "status": 1
+  },
+  {
+    "id": 85,
+    "name": "Reno Daloni",
+    "email": "",
+    "avatar": "",
+    "status": 0
+  },
+  {
+    "id": 86,
+    "name": "Rami Avaski",
+    "email": "rami@some.com",
+    "avatar": "https://docs.webix.com/usermanager-backend/users/97/avatar/375515968.jpg",
+    "status": 1
+  },
+  {
+    "id": 87,
+    "name": "Berni Mayour",
+    "email": "",
+    "avatar": "https://docs.webix.com/usermanager-backend/users/87/avatar/503723673.jpg",
+    "status": 1
+  },
+  {
+    "id": 88,
+    "name": "Galancy Alex",
+    "email": "",
+    "avatar": "",
+    "status": 0
+  }
+]
