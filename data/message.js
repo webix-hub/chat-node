@@ -28,7 +28,7 @@ class Message {
     const rawMsg = msg ? msg.get() : null;
 
     if (this._config.reactions) {
-      rawMsg.reactions = await this._dao.Reaction.getAllForMessage(t.ID);
+      rawMsg.reactions = await this._dao.Reaction.getAllForMessage(msg.id);
     }
 
     return rawMsg;

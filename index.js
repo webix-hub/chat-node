@@ -63,8 +63,8 @@ const { createUserToken, verifyUserToken } = require("./jwt");
     const fid = ctx.params.fileid;
     const fInfo = await dao.File.getOne(fid);
 
-    if (fInfo.id == 0) {
-      http.Error(w, "", http.StatusNotFound);
+    if (!fInfo) {
+      ctx.status = 404;
       return;
     }
 
@@ -76,8 +76,8 @@ const { createUserToken, verifyUserToken } = require("./jwt");
     const fid = ctx.params.fileid;
     const fInfo = await dao.File.getOne(fid);
 
-    if (fInfo.id == 0) {
-      http.Error(w, "", http.StatusNotFound);
+    if (!fInfo) {
+      ctx.status = 404;
       return;
     }
 
